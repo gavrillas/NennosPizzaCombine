@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DrinkObject" representedClassName="DrinkObject" syncable="YES" codeGenerationType="category">
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="price" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="PizzaObject" representedClassName="PizzaObject" syncable="YES" codeGenerationType="category">
+        <attribute name="imageURL" attributeType="String" defaultValueString=""/>
+        <attribute name="ingredients" attributeType="Transformable" valueTransformerName="" customClassName="[Int]"/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+    </entity>
+    <elements>
+        <element name="DrinkObject" positionX="0" positionY="45" width="128" height="74"/>
+        <element name="PizzaObject" positionX="27" positionY="72" width="128" height="74"/>
+    </elements>
+</model>

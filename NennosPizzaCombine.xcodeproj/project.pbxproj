@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0231B9273EE4A800C046F0 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0231B8273EE4A800C046F0 /* CartViewController.swift */; };
+		6D0231BC273EE69C00C046F0 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0231BB273EE69C00C046F0 /* CartViewModel.swift */; };
+		6D0231BF2740316E00C046F0 /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0231BE2740316E00C046F0 /* DrinksViewController.swift */; };
+		6D0231C127405AEF00C046F0 /* DrinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0231C027405AEF00C046F0 /* DrinksViewModel.swift */; };
+		6D0231C32741197900C046F0 /* DrinkCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0231C22741197900C046F0 /* DrinkCellViewModel.swift */; };
+		6D3C154527384C8C00875CEA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C154427384C8C00875CEA /* Coordinator.swift */; };
+		6D3C15472738549400875CEA /* IngredientCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C15462738549400875CEA /* IngredientCellViewModel.swift */; };
+		6D3C1549273AA7E300875CEA /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C1548273AA7E200875CEA /* WithLatestFrom.swift */; };
+		6D3C154B273AFF4C00875CEA /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C154A273AFF4B00875CEA /* UIBarButtonItem+Extensions.swift */; };
+		6DB6260627352BB600EF94E9 /* SwinjectStoryboard in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6260527352BB600EF94E9 /* SwinjectStoryboard */; };
+		6DB6260927352BFD00EF94E9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6260827352BFD00EF94E9 /* Kingfisher */; };
+		6DB6260D27353CE600EF94E9 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6260C27353CE600EF94E9 /* Assembly.swift */; };
+		6DB6260F273543D000EF94E9 /* PizzaCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6260E273543D000EF94E9 /* PizzaCellViewModel.swift */; };
+		6DB6261227354B8E00EF94E9 /* ShareReplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6261127354B8E00EF94E9 /* ShareReplay.swift */; };
+		6DB6261427354BC000EF94E9 /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6261327354BC000EF94E9 /* Publisher+Extensions.swift */; };
+		6DB626172735584F00EF94E9 /* CombineDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB626162735584F00EF94E9 /* CombineDataSources */; };
+		6DB626192735AB8800EF94E9 /* UIControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB626182735AB8800EF94E9 /* UIControl+Extensions.swift */; };
+		6DB6261B2735AC5900EF94E9 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6261A2735AC5900EF94E9 /* UIButton+Extensions.swift */; };
+		6DB6261E2735AE6500EF94E9 /* PizzaDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6261D2735AE6500EF94E9 /* PizzaDetailsViewModel.swift */; };
+		6DB626202735BB9100EF94E9 /* PizzaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6261F2735BB9100EF94E9 /* PizzaDetailsViewController.swift */; };
+		6DB626222735BD4800EF94E9 /* PizzaImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB626212735BD4800EF94E9 /* PizzaImageCell.swift */; };
+		6DB626252735BFE300EF94E9 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB626242735BFE300EF94E9 /* ItemCell.swift */; };
+		6DCCA01427300E5700407070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA01327300E5700407070 /* AppDelegate.swift */; };
+		6DCCA01627300E5700407070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA01527300E5700407070 /* SceneDelegate.swift */; };
+		6DCCA01B27300E5700407070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCCA01927300E5700407070 /* Main.storyboard */; };
+		6DCCA01E27300E5700407070 /* NennosPizzaCombine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA01C27300E5700407070 /* NennosPizzaCombine.xcdatamodeld */; };
+		6DCCA02027300E5900407070 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCCA01F27300E5900407070 /* Image.xcassets */; };
+		6DCCA02327300E5900407070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DCCA02127300E5900407070 /* LaunchScreen.storyboard */; };
+		6DCCA02E27300E5900407070 /* NennosPizzaCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA02D27300E5900407070 /* NennosPizzaCombineTests.swift */; };
+		6DCCA03827300E5900407070 /* NennosPizzaCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA03727300E5900407070 /* NennosPizzaCombineUITests.swift */; };
+		6DCCA03A27300E5900407070 /* NennosPizzaCombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA03927300E5900407070 /* NennosPizzaCombineUITestsLaunchTests.swift */; };
+		6DCCA04A2730238B00407070 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DCCA0482730238B00407070 /* Localization.strings */; };
+		6DCCA04C2730240C00407070 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCCA04B2730240C00407070 /* Color.xcassets */; };
+		6DCCA0522730261200407070 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA04F2730261200407070 /* Strings.swift */; };
+		6DCCA0532730261200407070 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA0502730261200407070 /* Assets.swift */; };
+		6DCCA0542730261200407070 /* Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA0512730261200407070 /* Scenes.swift */; };
+		6DCCA0592730305600407070 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA0582730305600407070 /* HomeViewController.swift */; };
+		6DCCA05B2730329B00407070 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA05A2730329B00407070 /* HomeViewModel.swift */; };
+		6DCCA05E273032E600407070 /* PizzaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA05D273032E600407070 /* PizzaService.swift */; };
+		6DCCA068273033A100407070 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA063273033A100407070 /* Cart.swift */; };
+		6DCCA069273033A100407070 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA064273033A100407070 /* Pizza.swift */; };
+		6DCCA06A273033A100407070 /* PizzaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA065273033A100407070 /* PizzaResponse.swift */; };
+		6DCCA06B273033A100407070 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA066273033A100407070 /* Ingredient.swift */; };
+		6DCCA06C273033A100407070 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA067273033A100407070 /* Drink.swift */; };
+		6DCCA0882734640900407070 /* PizzaServiceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA0872734640900407070 /* PizzaServiceUseCase.swift */; };
+		6DCCA092273476A900407070 /* PizzaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCA091273476A900407070 /* PizzaCell.swift */; };
+		6DCF884B2746CF4900A2AB56 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF884A2746CF4900A2AB56 /* Repository.swift */; };
+		6DCF884D2746D0E700A2AB56 /* PizzaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF884C2746D0E700A2AB56 /* PizzaRepository.swift */; };
+		6DCF88532746D3F300A2AB56 /* PizzaObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF884F2746D3F300A2AB56 /* PizzaObject+CoreDataClass.swift */; };
+		6DCF88552746D3F300A2AB56 /* DrinkObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88512746D3F300A2AB56 /* DrinkObject+CoreDataClass.swift */; };
+		6DCF88582746D44C00A2AB56 /* Domainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88572746D44C00A2AB56 /* Domainable.swift */; };
+		6DCF885A2747A63600A2AB56 /* DrinkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88592747A63500A2AB56 /* DrinkRepository.swift */; };
+		6DCF88642747D33100A2AB56 /* CartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88632747D33100A2AB56 /* CartService.swift */; };
+		6DCF88662747D48300A2AB56 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88652747D48300A2AB56 /* SwinjectStoryboard.swift */; };
+		6DCF88682747D4BA00A2AB56 /* DependencyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88672747D4BA00A2AB56 /* DependencyProvider.swift */; };
+		6DCF886A2749511E00A2AB56 /* CartItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF88692749511E00A2AB56 /* CartItemCellViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DCCA02A27300E5900407070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DCCA00827300E5700407070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCCA00F27300E5700407070;
+			remoteInfo = NennosPizzaCombine;
+		};
+		6DCCA03427300E5900407070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DCCA00827300E5700407070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCCA00F27300E5700407070;
+			remoteInfo = NennosPizzaCombine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D0231B8273EE4A800C046F0 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		6D0231BB273EE69C00C046F0 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		6D0231BE2740316E00C046F0 /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		6D0231C027405AEF00C046F0 /* DrinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewModel.swift; sourceTree = "<group>"; };
+		6D0231C22741197900C046F0 /* DrinkCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCellViewModel.swift; sourceTree = "<group>"; };
+		6D3C154427384C8C00875CEA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6D3C15462738549400875CEA /* IngredientCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCellViewModel.swift; sourceTree = "<group>"; };
+		6D3C1548273AA7E200875CEA /* WithLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithLatestFrom.swift; sourceTree = "<group>"; };
+		6D3C154A273AFF4B00875CEA /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		6DB6260C27353CE600EF94E9 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		6DB6260E273543D000EF94E9 /* PizzaCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCellViewModel.swift; sourceTree = "<group>"; };
+		6DB6261127354B8E00EF94E9 /* ShareReplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareReplay.swift; sourceTree = "<group>"; };
+		6DB6261327354BC000EF94E9 /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		6DB626182735AB8800EF94E9 /* UIControl+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extensions.swift"; sourceTree = "<group>"; };
+		6DB6261A2735AC5900EF94E9 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		6DB6261D2735AE6500EF94E9 /* PizzaDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailsViewModel.swift; sourceTree = "<group>"; };
+		6DB6261F2735BB9100EF94E9 /* PizzaDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaDetailsViewController.swift; sourceTree = "<group>"; };
+		6DB626212735BD4800EF94E9 /* PizzaImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaImageCell.swift; sourceTree = "<group>"; };
+		6DB626242735BFE300EF94E9 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		6DCCA01027300E5700407070 /* NennosPizzaCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NennosPizzaCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCCA01327300E5700407070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DCCA01527300E5700407070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DCCA01A27300E5700407070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DCCA01D27300E5700407070 /* NennosPizzaCombine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NennosPizzaCombine.xcdatamodel; sourceTree = "<group>"; };
+		6DCCA01F27300E5900407070 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		6DCCA02227300E5900407070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DCCA02427300E5900407070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DCCA02927300E5900407070 /* NennosPizzaCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NennosPizzaCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCCA02D27300E5900407070 /* NennosPizzaCombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NennosPizzaCombineTests.swift; sourceTree = "<group>"; };
+		6DCCA03327300E5900407070 /* NennosPizzaCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NennosPizzaCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCCA03727300E5900407070 /* NennosPizzaCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NennosPizzaCombineUITests.swift; sourceTree = "<group>"; };
+		6DCCA03927300E5900407070 /* NennosPizzaCombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NennosPizzaCombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DCCA0492730238B00407070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localization.strings; sourceTree = "<group>"; };
+		6DCCA04B2730240C00407070 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		6DCCA04F2730261200407070 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		6DCCA0502730261200407070 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		6DCCA0512730261200407070 /* Scenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenes.swift; sourceTree = "<group>"; };
+		6DCCA0582730305600407070 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6DCCA05A2730329B00407070 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6DCCA05D273032E600407070 /* PizzaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaService.swift; sourceTree = "<group>"; };
+		6DCCA063273033A100407070 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		6DCCA064273033A100407070 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		6DCCA065273033A100407070 /* PizzaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaResponse.swift; sourceTree = "<group>"; };
+		6DCCA066273033A100407070 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		6DCCA067273033A100407070 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		6DCCA0872734640900407070 /* PizzaServiceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaServiceUseCase.swift; sourceTree = "<group>"; };
+		6DCCA08A27346D8F00407070 /* Kingfisher */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Kingfisher; path = "Carthage/Build/Kingfisher.xcframework/ios-arm64/Kingfisher.framework/Kingfisher"; sourceTree = "<group>"; };
+		6DCCA08E27346DA600407070 /* Swinject */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Swinject; path = "Carthage/Build/Swinject.xcframework/ios-arm64_armv7/Swinject.framework/Swinject"; sourceTree = "<group>"; };
+		6DCCA091273476A900407070 /* PizzaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCell.swift; sourceTree = "<group>"; };
+		6DCF884A2746CF4900A2AB56 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		6DCF884C2746D0E700A2AB56 /* PizzaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRepository.swift; sourceTree = "<group>"; };
+		6DCF884F2746D3F300A2AB56 /* PizzaObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PizzaObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6DCF88512746D3F300A2AB56 /* DrinkObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrinkObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6DCF88572746D44C00A2AB56 /* Domainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domainable.swift; sourceTree = "<group>"; };
+		6DCF88592747A63500A2AB56 /* DrinkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRepository.swift; sourceTree = "<group>"; };
+		6DCF88632747D33100A2AB56 /* CartService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartService.swift; sourceTree = "<group>"; };
+		6DCF88652747D48300A2AB56 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		6DCF88672747D4BA00A2AB56 /* DependencyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyProvider.swift; sourceTree = "<group>"; };
+		6DCF88692749511E00A2AB56 /* CartItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCellViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DCCA00D27300E5700407070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB6260927352BFD00EF94E9 /* Kingfisher in Frameworks */,
+				6DB6260627352BB600EF94E9 /* SwinjectStoryboard in Frameworks */,
+				6DB626172735584F00EF94E9 /* CombineDataSources in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCCA02627300E5900407070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCCA03027300E5900407070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0231BA273EE68C00C046F0 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				6D0231B8273EE4A800C046F0 /* CartViewController.swift */,
+				6D0231BB273EE69C00C046F0 /* CartViewModel.swift */,
+				6DCF88692749511E00A2AB56 /* CartItemCellViewModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		6D0231BD2740315100C046F0 /* Drinks */ = {
+			isa = PBXGroup;
+			children = (
+				6D0231BE2740316E00C046F0 /* DrinksViewController.swift */,
+				6D0231C027405AEF00C046F0 /* DrinksViewModel.swift */,
+				6D0231C22741197900C046F0 /* DrinkCellViewModel.swift */,
+			);
+			path = Drinks;
+			sourceTree = "<group>";
+		};
+		6DB6260A273532B200EF94E9 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6260C27353CE600EF94E9 /* Assembly.swift */,
+				6DCF88652747D48300A2AB56 /* SwinjectStoryboard.swift */,
+				6DCF88672747D4BA00A2AB56 /* DependencyProvider.swift */,
+			);
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		6DB6260B273532C500EF94E9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA01327300E5700407070 /* AppDelegate.swift */,
+				6DCCA01527300E5700407070 /* SceneDelegate.swift */,
+				6DCCA02127300E5900407070 /* LaunchScreen.storyboard */,
+				6D3C154427384C8C00875CEA /* Coordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6DB6261027354B1F00EF94E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6261127354B8E00EF94E9 /* ShareReplay.swift */,
+				6DB6261327354BC000EF94E9 /* Publisher+Extensions.swift */,
+				6DB626182735AB8800EF94E9 /* UIControl+Extensions.swift */,
+				6DB6261A2735AC5900EF94E9 /* UIButton+Extensions.swift */,
+				6D3C1548273AA7E200875CEA /* WithLatestFrom.swift */,
+				6D3C154A273AFF4B00875CEA /* UIBarButtonItem+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DB6261C2735AE5400EF94E9 /* PizzaDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6261D2735AE6500EF94E9 /* PizzaDetailsViewModel.swift */,
+				6DB6261F2735BB9100EF94E9 /* PizzaDetailsViewController.swift */,
+				6DB626212735BD4800EF94E9 /* PizzaImageCell.swift */,
+				6D3C15462738549400875CEA /* IngredientCellViewModel.swift */,
+			);
+			path = PizzaDetails;
+			sourceTree = "<group>";
+		};
+		6DB626232735BF6900EF94E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6DB626242735BFE300EF94E9 /* ItemCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6DCCA00727300E5700407070 = {
+			isa = PBXGroup;
+			children = (
+				6DCCA01227300E5700407070 /* NennosPizzaCombine */,
+				6DCCA02C27300E5900407070 /* NennosPizzaCombineTests */,
+				6DCCA03627300E5900407070 /* NennosPizzaCombineUITests */,
+				6DCCA01127300E5700407070 /* Products */,
+				6DCCA08927346D8F00407070 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DCCA01127300E5700407070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA01027300E5700407070 /* NennosPizzaCombine.app */,
+				6DCCA02927300E5900407070 /* NennosPizzaCombineTests.xctest */,
+				6DCCA03327300E5900407070 /* NennosPizzaCombineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DCCA01227300E5700407070 /* NennosPizzaCombine */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF88492746CF3400A2AB56 /* Repository */,
+				6DB626232735BF6900EF94E9 /* UI */,
+				6DB6261027354B1F00EF94E9 /* Extensions */,
+				6DB6260B273532C500EF94E9 /* App */,
+				6DB6260A273532B200EF94E9 /* Swinject */,
+				6DCCA0612730338800407070 /* Model */,
+				6DCCA05C273032B400407070 /* Service */,
+				6DCCA04E2730258600407070 /* Generated */,
+				6DCCA04D2730244300407070 /* Scene */,
+				6DCCA046273022F900407070 /* Resources */,
+				6DCCA01C27300E5700407070 /* NennosPizzaCombine.xcdatamodeld */,
+			);
+			path = NennosPizzaCombine;
+			sourceTree = "<group>";
+		};
+		6DCCA02C27300E5900407070 /* NennosPizzaCombineTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA02D27300E5900407070 /* NennosPizzaCombineTests.swift */,
+			);
+			path = NennosPizzaCombineTests;
+			sourceTree = "<group>";
+		};
+		6DCCA03627300E5900407070 /* NennosPizzaCombineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA03727300E5900407070 /* NennosPizzaCombineUITests.swift */,
+				6DCCA03927300E5900407070 /* NennosPizzaCombineUITestsLaunchTests.swift */,
+			);
+			path = NennosPizzaCombineUITests;
+			sourceTree = "<group>";
+		};
+		6DCCA046273022F900407070 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA02427300E5900407070 /* Info.plist */,
+				6DCCA0472730234700407070 /* en.lproj */,
+				6DCCA01F27300E5900407070 /* Image.xcassets */,
+				6DCCA04B2730240C00407070 /* Color.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DCCA0472730234700407070 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA0482730238B00407070 /* Localization.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		6DCCA04D2730244300407070 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				6D0231BD2740315100C046F0 /* Drinks */,
+				6D0231BA273EE68C00C046F0 /* Cart */,
+				6DB6261C2735AE5400EF94E9 /* PizzaDetails */,
+				6DCCA05727302FC500407070 /* Home */,
+				6DCCA01927300E5700407070 /* Main.storyboard */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		6DCCA04E2730258600407070 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA0502730261200407070 /* Assets.swift */,
+				6DCCA0512730261200407070 /* Scenes.swift */,
+				6DCCA04F2730261200407070 /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		6DCCA05727302FC500407070 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA0582730305600407070 /* HomeViewController.swift */,
+				6DCCA05A2730329B00407070 /* HomeViewModel.swift */,
+				6DCCA091273476A900407070 /* PizzaCell.swift */,
+				6DB6260E273543D000EF94E9 /* PizzaCellViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6DCCA05C273032B400407070 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA05D273032E600407070 /* PizzaService.swift */,
+				6DCCA0872734640900407070 /* PizzaServiceUseCase.swift */,
+				6DCF88632747D33100A2AB56 /* CartService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6DCCA0612730338800407070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF884E2746D3B500A2AB56 /* DB */,
+				6DCCA0622730339000407070 /* Domain */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DCCA0622730339000407070 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA063273033A100407070 /* Cart.swift */,
+				6DCCA067273033A100407070 /* Drink.swift */,
+				6DCCA066273033A100407070 /* Ingredient.swift */,
+				6DCCA064273033A100407070 /* Pizza.swift */,
+				6DCCA065273033A100407070 /* PizzaResponse.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6DCCA08927346D8F00407070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCA08E27346DA600407070 /* Swinject */,
+				6DCCA08A27346D8F00407070 /* Kingfisher */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DCF88492746CF3400A2AB56 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF884A2746CF4900A2AB56 /* Repository.swift */,
+				6DCF884C2746D0E700A2AB56 /* PizzaRepository.swift */,
+				6DCF88592747A63500A2AB56 /* DrinkRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		6DCF884E2746D3B500A2AB56 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF884F2746D3F300A2AB56 /* PizzaObject+CoreDataClass.swift */,
+				6DCF88512746D3F300A2AB56 /* DrinkObject+CoreDataClass.swift */,
+				6DCF88572746D44C00A2AB56 /* Domainable.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DCCA00F27300E5700407070 /* NennosPizzaCombine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCCA03D27300E5900407070 /* Build configuration list for PBXNativeTarget "NennosPizzaCombine" */;
+			buildPhases = (
+				6DCCA00C27300E5700407070 /* Sources */,
+				6DCCA00D27300E5700407070 /* Frameworks */,
+				6DCCA00E27300E5700407070 /* Resources */,
+				6DCCA0552730262500407070 /* SwiftGen */,
+				6DCCA056273029E700407070 /* SwiftFormat */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NennosPizzaCombine;
+			packageProductDependencies = (
+				6DB6260527352BB600EF94E9 /* SwinjectStoryboard */,
+				6DB6260827352BFD00EF94E9 /* Kingfisher */,
+				6DB626162735584F00EF94E9 /* CombineDataSources */,
+			);
+			productName = NennosPizzaCombine;
+			productReference = 6DCCA01027300E5700407070 /* NennosPizzaCombine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DCCA02827300E5900407070 /* NennosPizzaCombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCCA04027300E5900407070 /* Build configuration list for PBXNativeTarget "NennosPizzaCombineTests" */;
+			buildPhases = (
+				6DCCA02527300E5900407070 /* Sources */,
+				6DCCA02627300E5900407070 /* Frameworks */,
+				6DCCA02727300E5900407070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DCCA02B27300E5900407070 /* PBXTargetDependency */,
+			);
+			name = NennosPizzaCombineTests;
+			productName = NennosPizzaCombineTests;
+			productReference = 6DCCA02927300E5900407070 /* NennosPizzaCombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DCCA03227300E5900407070 /* NennosPizzaCombineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCCA04327300E5900407070 /* Build configuration list for PBXNativeTarget "NennosPizzaCombineUITests" */;
+			buildPhases = (
+				6DCCA02F27300E5900407070 /* Sources */,
+				6DCCA03027300E5900407070 /* Frameworks */,
+				6DCCA03127300E5900407070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DCCA03527300E5900407070 /* PBXTargetDependency */,
+			);
+			name = NennosPizzaCombineUITests;
+			productName = NennosPizzaCombineUITests;
+			productReference = 6DCCA03327300E5900407070 /* NennosPizzaCombineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DCCA00827300E5700407070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6DCCA00F27300E5700407070 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6DCCA02827300E5900407070 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6DCCA00F27300E5700407070;
+					};
+					6DCCA03227300E5900407070 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6DCCA00F27300E5700407070;
+					};
+				};
+			};
+			buildConfigurationList = 6DCCA00B27300E5700407070 /* Build configuration list for PBXProject "NennosPizzaCombine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DCCA00727300E5700407070;
+			packageReferences = (
+				6DB6260427352BB600EF94E9 /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */,
+				6DB6260727352BFD00EF94E9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				6DB626152735584F00EF94E9 /* XCRemoteSwiftPackageReference "CombineDataSources" */,
+			);
+			productRefGroup = 6DCCA01127300E5700407070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DCCA00F27300E5700407070 /* NennosPizzaCombine */,
+				6DCCA02827300E5900407070 /* NennosPizzaCombineTests */,
+				6DCCA03227300E5900407070 /* NennosPizzaCombineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DCCA00E27300E5700407070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCCA02327300E5900407070 /* LaunchScreen.storyboard in Resources */,
+				6DCCA04A2730238B00407070 /* Localization.strings in Resources */,
+				6DCCA04C2730240C00407070 /* Color.xcassets in Resources */,
+				6DCCA02027300E5900407070 /* Image.xcassets in Resources */,
+				6DCCA01B27300E5700407070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCCA02727300E5900407070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCCA03127300E5900407070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DCCA0552730262500407070 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n\n";
+		};
+		6DCCA056273029E700407070 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DCCA00C27300E5700407070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB626252735BFE300EF94E9 /* ItemCell.swift in Sources */,
+				6DCCA0542730261200407070 /* Scenes.swift in Sources */,
+				6DCF88582746D44C00A2AB56 /* Domainable.swift in Sources */,
+				6DB6261227354B8E00EF94E9 /* ShareReplay.swift in Sources */,
+				6D0231BF2740316E00C046F0 /* DrinksViewController.swift in Sources */,
+				6DCCA01427300E5700407070 /* AppDelegate.swift in Sources */,
+				6D0231BC273EE69C00C046F0 /* CartViewModel.swift in Sources */,
+				6DCF885A2747A63600A2AB56 /* DrinkRepository.swift in Sources */,
+				6DCF886A2749511E00A2AB56 /* CartItemCellViewModel.swift in Sources */,
+				6D0231B9273EE4A800C046F0 /* CartViewController.swift in Sources */,
+				6DCCA06B273033A100407070 /* Ingredient.swift in Sources */,
+				6D3C15472738549400875CEA /* IngredientCellViewModel.swift in Sources */,
+				6DB6261E2735AE6500EF94E9 /* PizzaDetailsViewModel.swift in Sources */,
+				6DCCA0532730261200407070 /* Assets.swift in Sources */,
+				6DCCA0882734640900407070 /* PizzaServiceUseCase.swift in Sources */,
+				6D3C154527384C8C00875CEA /* Coordinator.swift in Sources */,
+				6DB6260F273543D000EF94E9 /* PizzaCellViewModel.swift in Sources */,
+				6DCCA05B2730329B00407070 /* HomeViewModel.swift in Sources */,
+				6DCCA069273033A100407070 /* Pizza.swift in Sources */,
+				6DB6261B2735AC5900EF94E9 /* UIButton+Extensions.swift in Sources */,
+				6D0231C32741197900C046F0 /* DrinkCellViewModel.swift in Sources */,
+				6DCCA0522730261200407070 /* Strings.swift in Sources */,
+				6DCF88662747D48300A2AB56 /* SwinjectStoryboard.swift in Sources */,
+				6DCF88642747D33100A2AB56 /* CartService.swift in Sources */,
+				6DCCA092273476A900407070 /* PizzaCell.swift in Sources */,
+				6DCCA01627300E5700407070 /* SceneDelegate.swift in Sources */,
+				6D3C1549273AA7E300875CEA /* WithLatestFrom.swift in Sources */,
+				6D0231C127405AEF00C046F0 /* DrinksViewModel.swift in Sources */,
+				6D3C154B273AFF4C00875CEA /* UIBarButtonItem+Extensions.swift in Sources */,
+				6DB626192735AB8800EF94E9 /* UIControl+Extensions.swift in Sources */,
+				6DCF884D2746D0E700A2AB56 /* PizzaRepository.swift in Sources */,
+				6DB626222735BD4800EF94E9 /* PizzaImageCell.swift in Sources */,
+				6DCCA06A273033A100407070 /* PizzaResponse.swift in Sources */,
+				6DCCA0592730305600407070 /* HomeViewController.swift in Sources */,
+				6DB6261427354BC000EF94E9 /* Publisher+Extensions.swift in Sources */,
+				6DCCA068273033A100407070 /* Cart.swift in Sources */,
+				6DB6260D27353CE600EF94E9 /* Assembly.swift in Sources */,
+				6DB626202735BB9100EF94E9 /* PizzaDetailsViewController.swift in Sources */,
+				6DCF88682747D4BA00A2AB56 /* DependencyProvider.swift in Sources */,
+				6DCCA05E273032E600407070 /* PizzaService.swift in Sources */,
+				6DCCA06C273033A100407070 /* Drink.swift in Sources */,
+				6DCF88532746D3F300A2AB56 /* PizzaObject+CoreDataClass.swift in Sources */,
+				6DCCA01E27300E5700407070 /* NennosPizzaCombine.xcdatamodeld in Sources */,
+				6DCF88552746D3F300A2AB56 /* DrinkObject+CoreDataClass.swift in Sources */,
+				6DCF884B2746CF4900A2AB56 /* Repository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCCA02527300E5900407070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCCA02E27300E5900407070 /* NennosPizzaCombineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCCA02F27300E5900407070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCCA03A27300E5900407070 /* NennosPizzaCombineUITestsLaunchTests.swift in Sources */,
+				6DCCA03827300E5900407070 /* NennosPizzaCombineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DCCA02B27300E5900407070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DCCA00F27300E5700407070 /* NennosPizzaCombine */;
+			targetProxy = 6DCCA02A27300E5900407070 /* PBXContainerItemProxy */;
+		};
+		6DCCA03527300E5900407070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DCCA00F27300E5700407070 /* NennosPizzaCombine */;
+			targetProxy = 6DCCA03427300E5900407070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DCCA01927300E5700407070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DCCA01A27300E5700407070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DCCA02127300E5900407070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DCCA02227300E5900407070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6DCCA0482730238B00407070 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DCCA0492730238B00407070 /* en */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DCCA03B27300E5900407070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DCCA03C27300E5900407070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DCCA03E27300E5900407070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NennosPizzaCombine/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Kingfisher.xcframework/ios-arm64/Kingfisher.framework",
+					"$(PROJECT_DIR)/Carthage/Build/Swinject.xcframework/ios-arm64_armv7/Swinject.framework",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GK.NennosPizzaCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DCCA03F27300E5900407070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NennosPizzaCombine/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Kingfisher.xcframework/ios-arm64/Kingfisher.framework",
+					"$(PROJECT_DIR)/Carthage/Build/Swinject.xcframework/ios-arm64_armv7/Swinject.framework",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GK.NennosPizzaCombine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DCCA04127300E5900407070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GK.NennosPizzaCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NennosPizzaCombine.app/NennosPizzaCombine";
+			};
+			name = Debug;
+		};
+		6DCCA04227300E5900407070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GK.NennosPizzaCombineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NennosPizzaCombine.app/NennosPizzaCombine";
+			};
+			name = Release;
+		};
+		6DCCA04427300E5900407070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GK.NennosPizzaCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NennosPizzaCombine;
+			};
+			name = Debug;
+		};
+		6DCCA04527300E5900407070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KMU6VV9XR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GK.NennosPizzaCombineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NennosPizzaCombine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DCCA00B27300E5700407070 /* Build configuration list for PBXProject "NennosPizzaCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCCA03B27300E5900407070 /* Debug */,
+				6DCCA03C27300E5900407070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCCA03D27300E5900407070 /* Build configuration list for PBXNativeTarget "NennosPizzaCombine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCCA03E27300E5900407070 /* Debug */,
+				6DCCA03F27300E5900407070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCCA04027300E5900407070 /* Build configuration list for PBXNativeTarget "NennosPizzaCombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCCA04127300E5900407070 /* Debug */,
+				6DCCA04227300E5900407070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCCA04327300E5900407070 /* Build configuration list for PBXNativeTarget "NennosPizzaCombineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCCA04427300E5900407070 /* Debug */,
+				6DCCA04527300E5900407070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DB6260427352BB600EF94E9 /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectStoryboard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		6DB6260727352BFD00EF94E9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		6DB626152735584F00EF94E9 /* XCRemoteSwiftPackageReference "CombineDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/combineopensource/CombineDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DB6260527352BB600EF94E9 /* SwinjectStoryboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB6260427352BB600EF94E9 /* XCRemoteSwiftPackageReference "SwinjectStoryboard" */;
+			productName = SwinjectStoryboard;
+		};
+		6DB6260827352BFD00EF94E9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB6260727352BFD00EF94E9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		6DB626162735584F00EF94E9 /* CombineDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB626152735584F00EF94E9 /* XCRemoteSwiftPackageReference "CombineDataSources" */;
+			productName = CombineDataSources;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6DCCA01C27300E5700407070 /* NennosPizzaCombine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DCCA01D27300E5700407070 /* NennosPizzaCombine.xcdatamodel */,
+			);
+			currentVersion = 6DCCA01D27300E5700407070 /* NennosPizzaCombine.xcdatamodel */;
+			path = NennosPizzaCombine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DCCA00827300E5700407070 /* Project object */;
+}

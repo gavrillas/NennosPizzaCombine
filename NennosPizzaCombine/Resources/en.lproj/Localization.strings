@@ -1,0 +1,16 @@
+/* 
+  Localization.strings
+  NennosPizzaCombine
+
+  Created by kristof on 2021. 11. 01..
+  
+*/
+// HomeScreen
+"Home.Title" = "NENNO'S PIZZA";
+
+// Currency
+"Price.Currency" = "$%@";
+
+// PizzaDetails
+"PizzaDetails.AddToCart" = "ADD TO CART ($%@)";
+"PizzaDetails.CustomPizza" = "Custom Pizza";
